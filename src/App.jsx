@@ -1,6 +1,5 @@
 import './App.css';
-import { Marquee } from './MarqueeDemoVertical';
-// import { DynamicIconCloud } from './DynamicIconCloud ';
+import { DynamicIconCloud } from './DynamicIconCloud ';
 
 export default function App() {
   return (
@@ -8,7 +7,7 @@ export default function App() {
       <h1 className="text-3xl font-bold underline">
         Skills
       </h1>
-      {/* <DynamicIconCloud iconSlugs={[
+      <DynamicIconCloud iconSlugs={[
         "javascript",
         "react",
         "html5",
@@ -28,10 +27,9 @@ export default function App() {
         "figma",
         "hostinger",
         "wordpress",
-        ]} /> */}
-        <Marquee className="my-custom-class" pauseOnHover>
-          This is a scrolling text!
-      </Marquee>
+        "mongodb",
+        "python",
+        ]} />
     </>
   );
 }
